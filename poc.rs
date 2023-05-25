@@ -1,8 +1,12 @@
 use ldk::keys::{PrivateKey, PublicKey};
-use nostr_rust::{ChannelParameters. Events, PubKey, Relay};
+use nostr_rust::{ChannelParameters,  Events, PubKey, Relay};
 use rust_dlc::Wallet;
 
 fn main() {
+     //Use PuBkey into events and relay for Alice and Bob
+     let alice_public_key = PublicKey::Event::Relay()
+     let bob_public_key = PublicKey::Event::Relay 
+
     // Generate private and public keys for Alice and Bob
     let alice_private_key = PrivateKey::generate();
     let bob_private_key = PrivateKey::generate();
