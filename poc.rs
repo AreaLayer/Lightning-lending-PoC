@@ -1,5 +1,5 @@
 use ldk::keys::{PrivateKey, PublicKey};
-use nostr_rust::ChannelParameters;
+use nostr_rust::{ChannelParameters. Events, PubKey, Relay};
 use rust_dlc::Wallet;
 
 fn main() {
