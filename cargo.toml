@@ -1,0 +1,5 @@
+[dependencies]
+nostr = "0.22"
+tungstenite = { version = "0.19", features = ["rustls-tls-webpki-roots"]}
+rust-lightning = "0.0.115"
+rust-dlc = "0.4.0"
