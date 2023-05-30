@@ -31,10 +31,4 @@ fn main() {
 
     // Close the channel
     let closing_tx = wallet.close_channel(&channel_id, &alice_private_key, &bob_private_key);
-
-    // Broadcast the closing transaction to the blockchain
-    // ...
-
-    // Further processing
-    // ...
 }
