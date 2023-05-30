@@ -5,7 +5,11 @@ use rust_dlc::{Wallet, AcceptOffer}
 fn main() {
      //Use PuBkey into events and relay for Alice and Bob
      let alice_public_key = PublicKey::Event::relay();
-     let bob_public_key = PublicKey::Event::relay();      
+     let bob_public_key = PublicKey::Event::relay();
+     
+     //Use Pubkey into channels and relay for Alice and Bob
+     let alice_public_key = PublicKey::Channel::relay();
+     let bob_public_key = PublicKey::Channel::relay();
      
      //Use DLC for both parties accept offer and generate private and public key                                                          
      let alice_accept_offer = PubKey::dlc::offer();
