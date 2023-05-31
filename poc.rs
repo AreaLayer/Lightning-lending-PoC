@@ -1,7 +1,7 @@
 use ldk::keys::{PrivateKey, PublicKey};
 use ldk::channel_manager::{ChannelManager, ChannelParameters};
 use ldk::chan_utils::ChannelId;use nostr_rust::{ChannelParameters,  Events, PubKey, Relay};
-use nostr_rust::{Events, PubKey, Relay};
+use nostr::{Events, PubKey, Relay};
 use rust_dlc::{Wallet, AcceptOffer}
 
 fn main() {
