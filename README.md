@@ -7,3 +7,6 @@ Simple Proof of Concept on Lightning lending
 - After is generated public/private using DLCs and offer
 - Now both decide open channel
 - Later can close channel
+
+## Run application
+
