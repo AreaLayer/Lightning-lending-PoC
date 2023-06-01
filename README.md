@@ -1,4 +1,4 @@
-# Lightning-lending-PoC
+# Lightning ending (PoC)
 Simple Proof of Concept on Lightning lending
 
 ## How Works?
