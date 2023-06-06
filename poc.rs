@@ -1,13 +1,17 @@
 use ldk::keys::{PrivateKey, PublicKey};
 use ldk::channel_manager::{ChannelManager, ChannelParameters};
-use ldk::chan_utils::ChannelId;use nostr_rust::{ChannelParameters,  Events, PubKey, Relay};
-use nostr::{Events, PubKey, Relay};
-use rust_dlc::{Wallet, AcceptOffer}
+use ldk::chan_utils::ChannelId;
+use nostr_rust::{ChannelParameters as NostrChannelParameters, Events as NostrEvents, PubKey as NostrPubKey, Relay as NostrRelay};
+use rust_dlc::Wallet;
+use rust_dlc::contract::AcceptOffer;
 
 fn main() {
-     //Use PuBkey into events and relay for Alice and Bob
-     let alice_public_key = PublicKey::Event::relay();
-     let bob_public_key = PublicKey::Event::relay();
+    // Add testnet
+    let bitcoin_network_testnet = PublicKey::from_private_key(&PrivateKey::from_slice(&[0; 32])).unwrap();
+
+    // Use PubKey into events and relay for Alice and Bob
+    let alice_public_key = NostrEvents::from_public_key(&nostr_testnet);
+    let bob_public_key = NostrEvents::from_public_key(&nostr_testnet);
      
      //Use Pubkey into channels and relay for Alice and Bob
      let alice_public_key = PublicKey::Channel::relay();
