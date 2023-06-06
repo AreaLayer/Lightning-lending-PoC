@@ -1,7 +1,7 @@
 # Lightning Lending (PoC)
 Simple Proof of Concept on Lightning lending
 
-## How Works?
+### How Works?
 
 - Alice and Bob enter in a DM or chat channel with his Npub 
 - After is generated public/private key using DLCs and offer
@@ -32,7 +32,7 @@ Or add cargo
 [cargo]
 cargo add Lightning-Lending
 ```
-## Roadmap
+### Roadmap
 
 - [x] Released PoC
 - [ ] Presentation of New NIP
