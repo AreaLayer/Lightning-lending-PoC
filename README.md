@@ -16,7 +16,7 @@ Pre requisite
 
 - LDK 
 - Nostr
-- 
+
 You can add toml in your Cargo.toml
 
 ```toml
