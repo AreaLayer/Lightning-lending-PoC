@@ -10,9 +10,24 @@ Simple Proof of Concept on Lightning lending
 
 ## Run application
 
-cargo add Lightning-Lending
+You can add toml in yoyur Cargo.toml
 
+**Pay Attention**: The application is still in alpha/PoC not Beta. Use at your own risk
 
+Pre requisite
+
+- LDK 
+- Nostr
+
+```toml
+[dependencies]
+Lightning-lending = "1.0.0"
+```
+## Add Cargo 
+```toml
+[cargo]
+cargo add payjoin
+```
 ## Roadmap
 
 - [x] Released PoC
