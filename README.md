@@ -16,6 +16,7 @@ Pre requisite
 
 - LDK 
 - Nostr
+- Rust-DLC
 
 You can add toml in your Cargo.toml
 
