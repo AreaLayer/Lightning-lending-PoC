@@ -8,7 +8,7 @@ Simple Proof of Concept on Lightning lending
 - Now both decide open channel
 - Later can close channel
 
-## Run application
+### Run application
 
 **Pay Attention**: The application is still in alpha/PoC, not Beta. Use at your own risk and protocol also is in testnet
 
