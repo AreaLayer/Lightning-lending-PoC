@@ -10,7 +10,7 @@ Simple Proof of Concept on Lightning lending
 
 ## Run application
 
-**Pay Attention**: The application is still in alpha/PoC, not Beta. Use at your own risk. The protocol also is in testnet
+**Pay Attention**: The application is still in alpha/PoC, not Beta. Use at your own risk and protocol also is in testnet
 
 Pre requisite
 
