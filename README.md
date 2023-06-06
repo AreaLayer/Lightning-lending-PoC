@@ -23,7 +23,7 @@ Pre requisite
 [dependencies]
 Lightning-lending = "1.0.0"
 ```
-## Add Cargo 
+### Add Cargo 
 ```toml
 [cargo]
 cargo add payjoin
