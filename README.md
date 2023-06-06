@@ -11,3 +11,10 @@ Simple Proof of Concept on Lightning lending
 ## Run application
 
 Soon.
+
+## Roadmap
+
+- [x] Released PoC
+- [ ] Presentation of New NIP
+- [ ] Testnet
+- [ ] Run application
