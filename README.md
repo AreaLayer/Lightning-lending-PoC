@@ -29,7 +29,7 @@ Or add cargo
 
 ```toml
 [cargo]
-cargo add payjoin
+cargo add Lightning-Lending
 ```
 ## Roadmap
 
