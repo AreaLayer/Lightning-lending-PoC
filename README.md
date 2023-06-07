@@ -32,6 +32,11 @@ Or add cargo
 [cargo]
 cargo add Lightning-Lending
 ```
+
+### NIP-XXX: TBA
+
+[Check more](https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md)
+
 ### Roadmap
 
 - [x] Released PoC
