@@ -22,7 +22,7 @@ You can add toml in your Cargo.toml
 
 ```toml
 [dependencies]
-Lightning-lending = "1.0.0"
+Lightning-lending = "1.0.1"
 ```
 ### Add Cargo 
 
