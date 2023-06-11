@@ -1,5 +1,5 @@
 [dependencies]
-Lightning-lending = "1.0.0"
+Lightning-lending = "1.0.1"
 nostr = "0.22"
 tungstenite = { version = "0.19", features = ["rustls-tls-webpki-roots"]}
 rust-lightning = "0.0.115"
