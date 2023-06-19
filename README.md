@@ -40,6 +40,6 @@ cargo add Lightning-Lending
 ### Roadmap
 
 - [x] Released PoC
-- [ ] Presentation of New NIP
+- [x] Presentation of New NIP
 - [x] Testnet
 - [x] Run application
