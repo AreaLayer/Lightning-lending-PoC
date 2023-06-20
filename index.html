@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lightning Lending</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>P2P BTC</h1>
+    <form>
+      <label for="Node">Type of Node</label>
+      <input type="node" id="node" name="node" required>
+      
+      <label for="Nostr">Peer</label>
+      <input type="peer" id="peer" ame="peer" required>
+
+      <label for="Nostr">Npub:</label>
+      <input type="npub" id="npub" ame="Npub" required>
+
+      <label for="plan">Select a inbound liquidity:</label>
+      <select id="plan" name="liquidity" required>
+        <option value="">Choose a inbound liquiditu</option>
+        <option value="basic">Bob 1 BTC</option>
+        <option value="pro"> Carol 3 BTC</option>
+      </select>
+        
+        <label for="plan">Set block time for open channel</label>
+        <select id="block" name="block" required>
+          <option value="">Choose a form of block time</option>
+          <option value="HTCL 1">3000</option>
+          <option value="HTCL 2">1000</option>
+          <option value="HTLC 3">100000</option>
+          
+      </select>
+
+      <input type="submit" value="Open channel">
+    </form>
+  </div>
+</body>
+</html>
