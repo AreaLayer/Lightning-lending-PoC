@@ -43,3 +43,7 @@ cargo add Lightning-Lending
 - [x] Presentation of New NIP
 - [x] Testnet
 - [x] Run application
+
+## Demo video of PoC on Lightning Lending
+
+![Demo video](https://github.com/AreaLayer/Lightning-lending-PoC/blob/main/demo-video/Test5.gif)
