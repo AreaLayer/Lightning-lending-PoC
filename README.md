@@ -33,7 +33,7 @@ Or add cargo
 cargo add Lightning-Lending
 ```
 
-### NIP-XXX: TBA
+### NIP-XXX: Peers Lightning
 
 [Check more](https://github.com/AreaLayer/NIP-xxx/blob/main/NIP/NIP-xxx.md)
 
